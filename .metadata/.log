@@ -1,0 +1,1473 @@
+!SESSION 2026-11-12 15:41:28.591 -----------------------------------------------
+eclipse.buildId=4.38.0.202512052019
+java.version=25.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.springtools
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.springtools -data D:\MacWebapp
+
+!ENTRY ch.qos.logback.classic 1 0 2026-11-12 15:41:30.799
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-11-12 15:41:32.273
+!MESSAGE Logback config file: D:\MacWebapp\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.101.20251017-1242.xml
+
+!ENTRY org.eclipse.ui 2 0 2026-11-12 15:41:33.157
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-11-12 15:41:33.157
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2026-11-12 15:41:33.872
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-11-12 15:41:33.872
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-11-12 15:41:47.127
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\PMLS'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 15:47:54.327
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 15:47:54.329
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 15:47:54.329
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 15:47:54.331
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 15:47:59.635
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 15:47:59.635
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 15:47:59.637
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 15:47:59.638
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 15:48:00.068
+!MESSAGE 15:47:59.780 [Simple-Language-Server main thread] INFO  o.s.i.v.b.jdt.ls.JdtLsProjectCache - INIT CLASSPATH LISTENER enableClasspath=true
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 15:48:00.238
+!MESSAGE 15:48:00.150 [Simple-Language-Server main thread] INFO  o.s.i.v.b.j.l.v.SpringProcessConnectorRemote - updating settings for remote processses to track - done
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 15:48:00.329
+!MESSAGE 15:48:00.328 [pool-6-thread-1] INFO  o.s.i.v.b.j.u.SpringFactoriesIndexer - scan factories files for symbols for project: Service-hub took ms: 82
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 15:48:01.822
+!MESSAGE 15:48:00.411 [pool-6-thread-1] INFO  o.s.i.v.b.j.utils.SpringIndexerJava - scan java files, AST parse, chunk 0 for files: 1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 15:48:02.247
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 15:48:02.248
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 15:48:02.249
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 15:48:02.249
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 15:48:07.009
+!MESSAGE 15:48:07.007 [Project-Reconciler-1] INFO  o.s.i.v.boot.app.RestTemplateFactory - Environment size: 51
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2026-11-12 15:49:45.140
+!MESSAGE Could not download sources for org.springframework.boot:spring-boot-sql:4.1.2
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-sql:jar:sources:4.1.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:554)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:462)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:295)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:281)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:523)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:508)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:462)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:342)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:281)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Could not transfer artifact org.springframework.boot:spring-boot-sql:jar:sources:4.1.2 from/to central (https://repo.maven.apache.org/maven2): Connection reset
+org.eclipse.aether.transfer.ArtifactTransferException: Could not transfer artifact org.springframework.boot:spring-boot-sql:jar:sources:4.1.2 from/to central (https://repo.maven.apache.org/maven2): Connection reset
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:44)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:417)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:260)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:537)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:449)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:261)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:243)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:532)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:462)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:295)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:281)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:523)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:508)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:462)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:342)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:281)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:316)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:354)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:798)
+	at java.base/java.net.Socket$SocketInputStream.implRead(Socket.java:974)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:964)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:489)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:483)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1461)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1068)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at org.apache.http.impl.io.SessionInputBufferImpl.read(SessionInputBufferImpl.java:197)
+	at org.apache.http.impl.io.ContentLengthInputStream.read(ContentLengthInputStream.java:176)
+	at org.apache.http.conn.EofSensorInputStream.read(EofSensorInputStream.java:135)
+	at org.apache.http.conn.EofSensorInputStream.read(EofSensorInputStream.java:148)
+	at org.eclipse.aether.spi.connector.transport.AbstractTransporter.copy(AbstractTransporter.java:164)
+	at org.eclipse.aether.spi.connector.transport.AbstractTransporter.utilGet(AbstractTransporter.java:95)
+	at org.eclipse.aether.transport.http.HttpTransporter.access$300(HttpTransporter.java:110)
+	at org.eclipse.aether.transport.http.HttpTransporter$EntityGetter.handle(HttpTransporter.java:701)
+	at org.eclipse.aether.transport.http.HttpTransporter.execute(HttpTransporter.java:511)
+	at org.eclipse.aether.transport.http.HttpTransporter.implGet(HttpTransporter.java:456)
+	at org.eclipse.aether.spi.connector.transport.AbstractTransporter.get(AbstractTransporter.java:64)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$GetTaskRunner.runTask(BasicRepositoryConnector.java:482)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:414)
+	... 23 more
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2026-11-12 15:49:45.152
+!MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-sql:jar:sources:4.1.2
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2026-11-12 15:49:45.152
+!MESSAGE Could not transfer artifact org.springframework.boot:spring-boot-sql:jar:sources:4.1.2 from/to central (https://repo.maven.apache.org/maven2): Connection reset
+!STACK 0
+org.eclipse.aether.transfer.ArtifactTransferException: Could not transfer artifact org.springframework.boot:spring-boot-sql:jar:sources:4.1.2 from/to central (https://repo.maven.apache.org/maven2): Connection reset
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:44)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:417)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:260)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:537)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:449)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:261)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:243)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:532)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:462)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:295)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:281)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:523)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:508)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:462)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:342)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:281)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:316)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:354)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:798)
+	at java.base/java.net.Socket$SocketInputStream.implRead(Socket.java:974)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:964)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:489)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:483)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1461)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1068)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at org.apache.http.impl.io.SessionInputBufferImpl.read(SessionInputBufferImpl.java:197)
+	at org.apache.http.impl.io.ContentLengthInputStream.read(ContentLengthInputStream.java:176)
+	at org.apache.http.conn.EofSensorInputStream.read(EofSensorInputStream.java:135)
+	at org.apache.http.conn.EofSensorInputStream.read(EofSensorInputStream.java:148)
+	at org.eclipse.aether.spi.connector.transport.AbstractTransporter.copy(AbstractTransporter.java:164)
+	at org.eclipse.aether.spi.connector.transport.AbstractTransporter.utilGet(AbstractTransporter.java:95)
+	at org.eclipse.aether.transport.http.HttpTransporter.access$300(HttpTransporter.java:110)
+	at org.eclipse.aether.transport.http.HttpTransporter$EntityGetter.handle(HttpTransporter.java:701)
+	at org.eclipse.aether.transport.http.HttpTransporter.execute(HttpTransporter.java:511)
+	at org.eclipse.aether.transport.http.HttpTransporter.implGet(HttpTransporter.java:456)
+	at org.eclipse.aether.spi.connector.transport.AbstractTransporter.get(AbstractTransporter.java:64)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$GetTaskRunner.runTask(BasicRepositoryConnector.java:482)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:414)
+	... 23 more
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 15:52:43.869
+!MESSAGE 15:52:43.861 [Simple-Language-Server main thread] INFO  o.s.i.v.b.j.s.StereotypeCatalogRegistry - stereotype catalog registry reset for project 'Service-hub'
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 15:52:43.965
+!MESSAGE 15:52:43.961 [pool-6-thread-1] INFO  o.s.i.v.b.j.u.SpringFactoriesIndexer - scan factories files for symbols for project: Service-hub took ms: 105
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 15:52:44.094
+!MESSAGE 15:52:44.093 [pool-6-thread-1] INFO  o.s.i.v.b.j.utils.SpringIndexerJava - reconciling stats - timer: 22
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:01:40.015
+!MESSAGE 16:01:39.977 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 1
+
+!ENTRY org.eclipse.jface 2 0 2026-11-12 16:01:40.453
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2026-11-12 16:01:40.454
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:01:43.254
+!MESSAGE 16:01:41.094 [Reconciler-1] INFO  o.s.i.v.b.m.SpringPropertiesIndexManager - Indexing Spring Boot Properties for Service-hub DONE
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:01:51.473
+!MESSAGE 16:01:43.262 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 8ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:01:53.241
+!MESSAGE 16:01:53.238 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/MacWebapp/Service-hub/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:01:53.496
+!MESSAGE 16:01:53.493 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/MacWebapp/Service-hub/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:01:54.170
+!MESSAGE 16:01:54.146 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/MacWebapp/Service-hub/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:01:54.477
+!MESSAGE 16:01:54.466 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 0ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:01:54.730
+!MESSAGE 16:01:54.729 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 8
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:01:54.737
+!MESSAGE 16:01:54.736 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - completion request arrived: file:///D:/MacWebapp/Service-hub/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:01:54.930
+!MESSAGE 16:01:54.929 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 9
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:01:54.930
+!MESSAGE 16:01:54.929 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/MacWebapp/Service-hub/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:01:54.936
+!MESSAGE 16:01:54.931 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 2ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:01:56.019
+!MESSAGE 16:01:56.018 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - completion request arrived: file:///D:/MacWebapp/Service-hub/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:01:56.408
+!MESSAGE 16:01:56.389 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 11
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:01:56.729
+!MESSAGE 16:01:56.728 [pool-3-thread-2] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - Starting completion handling for: file:///D:/MacWebapp/Service-hub/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:01:57.027
+!MESSAGE 16:01:57.026 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - completion request arrived: file:///D:/MacWebapp/Service-hub/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:01:57.443
+!MESSAGE 16:01:57.442 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/MacWebapp/Service-hub/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:01:57.460
+!MESSAGE 16:01:57.455 [pool-3-thread-2] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - completion handling - retrieve lastest snapshot for: file:///D:/MacWebapp/Service-hub/src/main/resources/application.properties
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 16:35:42.381
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 16:35:42.383
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 16:35:42.383
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 16:35:42.384
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:35:42.398
+!MESSAGE 16:35:42.208 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file changed event: [file:///D:/MacWebapp/Service-hub/src/main/resources/application.properties]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 16:38:45.025
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 16:38:45.028
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 16:38:45.028
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 16:38:45.029
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:38:45.078
+!MESSAGE 16:38:44.786 [pool-6-thread-1] INFO  o.s.i.v.b.j.utils.SpringIndexerJava - scan java files, AST parse, chunk 0 for files: 1
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:38:45.305
+!MESSAGE 16:38:45.221 [pool-6-thread-1] INFO  o.s.i.v.b.j.utils.SpringIndexerJava - Finished scanning affected files [D:\MacWebapp\Service-hub\src\main\java\com\service\main\entity\Users.java]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:38:45.334
+!MESSAGE 16:38:45.315 [pool-3-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:38:45.410
+!MESSAGE 16:38:45.409 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:38:45.412
+!MESSAGE 16:38:45.410 [pool-3-thread-8] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:38:45.787
+!MESSAGE 16:38:45.786 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:38:45.820
+!MESSAGE 16:38:45.819 [Reconciler-1] INFO  o.s.i.v.b.j.r.JdtReconciler - reconciling (JDT): file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java done in 5ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:38:48.380
+!MESSAGE 16:38:48.361 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 11ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:38:48.384
+!MESSAGE 16:38:48.383 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:38:48.386
+!MESSAGE 16:38:48.386 [pool-3-thread-5] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:38:49.332
+!MESSAGE 16:38:48.863 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:38:49.718
+!MESSAGE 16:38:49.717 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:38:49.848
+!MESSAGE 16:38:49.847 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:38:49.854
+!MESSAGE 16:38:49.853 [pool-3-thread-5] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:38:54.826
+!MESSAGE 16:38:54.825 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 4
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:38:55.071
+!MESSAGE 16:38:55.070 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:38:55.072
+!MESSAGE 16:38:55.071 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:38:55.093
+!MESSAGE 16:38:55.093 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:38:55.102
+!MESSAGE 16:38:55.101 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:38:56.116
+!MESSAGE 16:38:55.329 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:38:56.117
+!MESSAGE 16:38:55.955 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 2ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:38:56.117
+!MESSAGE 16:38:56.111 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:38:56.118
+!MESSAGE 16:38:56.116 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:38:56.167
+!MESSAGE 16:38:56.166 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 6
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:38:56.590
+!MESSAGE 16:38:56.590 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:38:56.671
+!MESSAGE 16:38:56.610 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:38:56.671
+!MESSAGE 16:38:56.670 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:38:59.073
+!MESSAGE 16:38:58.698 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:38:59.087
+!MESSAGE 16:38:59.087 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:38:59.088
+!MESSAGE 16:38:59.087 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:39:01.749
+!MESSAGE 16:38:59.366 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:39:05.066
+!MESSAGE 16:39:05.066 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:39:09.345
+!MESSAGE 16:39:09.344 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:39:09.491
+!MESSAGE 16:39:09.490 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:39:09.848
+!MESSAGE 16:39:09.501 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:39:09.850
+!MESSAGE 16:39:09.849 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 16:39:50.770
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 16:39:50.770
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 16:39:50.771
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 16:39:50.771
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:39:50.803
+!MESSAGE 16:39:50.696 [pool-6-thread-1] INFO  o.s.i.v.b.j.utils.SpringIndexerJava - Start scanning affected files for types []
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:39:50.846
+!MESSAGE 16:39:50.833 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Role.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:39:50.848
+!MESSAGE 16:39:50.845 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Role.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:39:50.849
+!MESSAGE 16:39:50.846 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Role.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:39:51.003
+!MESSAGE 16:39:51.002 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Role.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:39:51.071
+!MESSAGE 16:39:51.064 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Role.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:39:52.083
+!MESSAGE 16:39:51.206 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:39:53.633
+!MESSAGE 16:39:53.631 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Role.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:39:57.035
+!MESSAGE 16:39:54.178 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Role.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:39:57.036
+!MESSAGE 16:39:57.034 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Role.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:39:59.048
+!MESSAGE 16:39:57.039 [pool-3-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Role.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:39:59.052
+!MESSAGE 16:39:59.051 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:40:50.026
+!MESSAGE 16:40:50.024 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file created event: [file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:40:50.225
+!MESSAGE 16:40:50.058 [pool-6-thread-1] INFO  o.s.i.v.b.j.utils.SpringIndexerJava - scan java files, AST parse, chunk 0 for files: 1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 16:40:50.274
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 16:40:50.275
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 16:40:50.275
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 16:40:50.276
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:40:50.397
+!MESSAGE 16:40:50.396 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 1
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:40:50.401
+!MESSAGE 16:40:50.398 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:40:50.526
+!MESSAGE 16:40:50.406 [pool-3-thread-5] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:40:50.527
+!MESSAGE 16:40:50.420 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:40:50.527
+!MESSAGE 16:40:50.420 [pool-3-thread-5] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:40:50.527
+!MESSAGE 16:40:50.460 [ForkJoinPool.commonPool-worker-4] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Removing and cleaning up name env for project file:/D:/MacWebapp/Service-hub
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:40:50.737
+!MESSAGE 16:40:50.580 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:40:53.583
+!MESSAGE 16:40:53.582 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 3
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:40:53.584
+!MESSAGE 16:40:53.582 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:40:54.065
+!MESSAGE 16:40:54.064 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:40:54.083
+!MESSAGE 16:40:54.083 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:40:54.088
+!MESSAGE 16:40:54.087 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:40:54.089
+!MESSAGE 16:40:54.088 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:40:54.090
+!MESSAGE 16:40:54.090 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:40:57.180
+!MESSAGE 16:40:57.179 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:40:57.190
+!MESSAGE 16:40:57.186 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:01.501
+!MESSAGE 16:40:57.410 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:01.687
+!MESSAGE 16:41:01.687 [Reconciler-1] INFO  o.s.i.v.b.j.r.JdtReconciler - reconciling (JDT): file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java done in 3ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:02.533
+!MESSAGE 16:41:02.532 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:02.545
+!MESSAGE 16:41:02.544 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:02.545
+!MESSAGE 16:41:02.545 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:02.550
+!MESSAGE 16:41:02.548 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:02.551
+!MESSAGE 16:41:02.550 [pool-3-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:02.935
+!MESSAGE 16:41:02.935 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:23.359
+!MESSAGE 16:41:23.359 [pool-3-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:23.368
+!MESSAGE 16:41:23.360 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:24.959
+!MESSAGE 16:41:23.368 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:24.959
+!MESSAGE 16:41:24.958 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:25.983
+!MESSAGE 16:41:25.982 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 10
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:25.997
+!MESSAGE 16:41:25.992 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:26.006
+!MESSAGE 16:41:26.006 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:26.009
+!MESSAGE 16:41:26.009 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:26.011
+!MESSAGE 16:41:26.010 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:26.011
+!MESSAGE 16:41:26.010 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:26.012
+!MESSAGE 16:41:26.011 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:26.517
+!MESSAGE 16:41:26.502 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:26.517
+!MESSAGE 16:41:26.516 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:26.517
+!MESSAGE 16:41:26.516 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:26.842
+!MESSAGE 16:41:26.840 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 13
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:26.843
+!MESSAGE 16:41:26.842 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:26.844
+!MESSAGE 16:41:26.843 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 3ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:26.992
+!MESSAGE 16:41:26.992 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 14
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:26.993
+!MESSAGE 16:41:26.993 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:27.020
+!MESSAGE 16:41:27.020 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:27.034
+!MESSAGE 16:41:27.033 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:27.034
+!MESSAGE 16:41:27.033 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:29.036
+!MESSAGE 16:41:27.036 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:29.036
+!MESSAGE 16:41:27.036 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:29.036
+!MESSAGE 16:41:29.035 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:29.875
+!MESSAGE 16:41:29.038 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:29.876
+!MESSAGE 16:41:29.875 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:30.921
+!MESSAGE 16:41:30.909 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:30.922
+!MESSAGE 16:41:30.920 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:30.922
+!MESSAGE 16:41:30.921 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:30.973
+!MESSAGE 16:41:30.925 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:30.973
+!MESSAGE 16:41:30.972 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:35.407
+!MESSAGE 16:41:31.950 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:35.408
+!MESSAGE 16:41:31.952 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:35.408
+!MESSAGE 16:41:35.405 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:35.419
+!MESSAGE 16:41:35.418 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:38.497
+!MESSAGE 16:41:35.839 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:38.501
+!MESSAGE 16:41:38.500 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:38.931
+!MESSAGE 16:41:38.930 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:52.978
+!MESSAGE 16:41:52.977 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:52.978
+!MESSAGE 16:41:52.977 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:41:52.983
+!MESSAGE 16:41:52.981 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:42:41.796
+!MESSAGE 16:42:30.441 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:42:41.796
+!MESSAGE 16:42:41.796 [pool-6-thread-1] INFO  o.s.i.v.b.j.utils.SpringIndexerJava - Start scanning affected files for types [com.service.main.entity.Vehicle]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 16:42:41.857
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 16:42:41.860
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 16:42:41.861
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 16:42:41.862
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:42:41.910
+!MESSAGE 16:42:41.909 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:42:42.019
+!MESSAGE 16:42:41.915 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:42:42.020
+!MESSAGE 16:42:42.019 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:42:42.056
+!MESSAGE 16:42:42.049 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:42:42.060
+!MESSAGE 16:42:42.060 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:42:42.286
+!MESSAGE 16:42:42.282 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:42:44.664
+!MESSAGE 16:42:42.295 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:42:44.664
+!MESSAGE 16:42:42.411 [Reconciler-1] INFO  o.s.i.v.b.j.r.JdtReconciler - reconciling (JDT): file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java done in 1ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:42:45.938
+!MESSAGE 16:42:44.665 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:42:45.938
+!MESSAGE 16:42:45.937 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:42:46.242
+!MESSAGE 16:42:46.241 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:42:51.069
+!MESSAGE 16:42:51.038 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:42:51.072
+!MESSAGE 16:42:51.072 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:42:51.072
+!MESSAGE 16:42:51.072 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:42:54.322
+!MESSAGE 16:42:54.322 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:42:54.766
+!MESSAGE 16:42:54.597 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:42:54.767
+!MESSAGE 16:42:54.765 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:42:58.424
+!MESSAGE 16:42:55.100 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:42:58.577
+!MESSAGE 16:42:58.566 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:42:58.577
+!MESSAGE 16:42:58.577 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:42:58.578
+!MESSAGE 16:42:58.578 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:42:58.578
+!MESSAGE 16:42:58.578 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:42:58.927
+!MESSAGE 16:42:58.927 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:42:58.927
+!MESSAGE 16:42:58.927 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 16:43:01.179
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 16:43:01.179
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 16:43:01.180
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 16:43:01.180
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:01.292
+!MESSAGE 16:43:01.022 [pool-3-thread-10] INFO  o.s.i.v.boot.app.SpringSymbolIndex - Update document [didSave event]: file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:14.357
+!MESSAGE 16:43:01.698 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:14.358
+!MESSAGE 16:43:14.357 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:14.366
+!MESSAGE 16:43:14.360 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:28.238
+!MESSAGE 16:43:28.237 [pool-6-thread-1] INFO  o.s.i.v.b.j.utils.SpringIndexerJava - scan java files, AST parse, chunk 0 for files: 1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 16:43:28.535
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 16:43:28.536
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 16:43:28.537
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 16:43:28.537
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:28.553
+!MESSAGE 16:43:28.543 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:28.554
+!MESSAGE 16:43:28.553 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:28.690
+!MESSAGE 16:43:28.671 [ForkJoinPool.commonPool-worker-5] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Removing and cleaning up name env for project file:/D:/MacWebapp/Service-hub
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:28.727
+!MESSAGE 16:43:28.726 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:28.731
+!MESSAGE 16:43:28.730 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:29.049
+!MESSAGE 16:43:28.815 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:29.049
+!MESSAGE 16:43:29.046 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:30.997
+!MESSAGE 16:43:29.738 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:30.997
+!MESSAGE 16:43:29.738 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:30.998
+!MESSAGE 16:43:30.994 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:32.001
+!MESSAGE 16:43:32.001 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:44.015
+!MESSAGE 16:43:32.005 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:44.016
+!MESSAGE 16:43:34.575 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:44.949
+!MESSAGE 16:43:44.024 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:44.950
+!MESSAGE 16:43:44.410 [Reconciler-1] INFO  o.s.i.v.b.j.r.JdtReconciler - reconciling (JDT): file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java done in 1ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:44.950
+!MESSAGE 16:43:44.945 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:45.473
+!MESSAGE 16:43:45.466 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:45.473
+!MESSAGE 16:43:45.472 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:45.473
+!MESSAGE 16:43:45.472 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:45.973
+!MESSAGE 16:43:45.972 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:46.485
+!MESSAGE 16:43:46.130 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 10
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:46.486
+!MESSAGE 16:43:46.485 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:46.486
+!MESSAGE 16:43:46.485 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:46.490
+!MESSAGE 16:43:46.485 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:46.490
+!MESSAGE 16:43:46.488 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:46.490
+!MESSAGE 16:43:46.489 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:46.490
+!MESSAGE 16:43:46.489 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:46.490
+!MESSAGE 16:43:46.489 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:46.491
+!MESSAGE 16:43:46.489 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:46.682
+!MESSAGE 16:43:46.681 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:47.001
+!MESSAGE 16:43:46.996 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:47.001
+!MESSAGE 16:43:46.996 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:47.002
+!MESSAGE 16:43:46.996 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:47.002
+!MESSAGE 16:43:47.000 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:48.405
+!MESSAGE 16:43:47.716 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:48.405
+!MESSAGE 16:43:48.404 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:48.415
+!MESSAGE 16:43:48.412 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:48.415
+!MESSAGE 16:43:48.414 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:48.415
+!MESSAGE 16:43:48.414 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:48.415
+!MESSAGE 16:43:48.414 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:48.906
+!MESSAGE 16:43:48.795 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:48.911
+!MESSAGE 16:43:48.910 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:49.939
+!MESSAGE 16:43:48.914 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:49.939
+!MESSAGE 16:43:49.004 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 1ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:49.939
+!MESSAGE 16:43:49.938 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:49.939
+!MESSAGE 16:43:49.938 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:49.940
+!MESSAGE 16:43:49.940 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:49.942
+!MESSAGE 16:43:49.942 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:54.208
+!MESSAGE 16:43:50.360 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:59.491
+!MESSAGE 16:43:55.919 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:59.491
+!MESSAGE 16:43:55.919 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:59.499
+!MESSAGE 16:43:59.499 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:59.503
+!MESSAGE 16:43:59.503 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:59.504
+!MESSAGE 16:43:59.503 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:59.943
+!MESSAGE 16:43:59.943 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:43:59.945
+!MESSAGE 16:43:59.945 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:02.620
+!MESSAGE 16:44:02.619 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:02.625
+!MESSAGE 16:44:02.624 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:02.625
+!MESSAGE 16:44:02.624 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:02.625
+!MESSAGE 16:44:02.624 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:07.016
+!MESSAGE 16:44:06.885 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:07.027
+!MESSAGE 16:44:07.024 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:07.027
+!MESSAGE 16:44:07.024 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:07.028
+!MESSAGE 16:44:07.027 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:08.242
+!MESSAGE 16:44:07.389 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:08.242
+!MESSAGE 16:44:08.242 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:08.250
+!MESSAGE 16:44:08.249 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:08.253
+!MESSAGE 16:44:08.252 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:12.279
+!MESSAGE 16:44:11.778 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:12.280
+!MESSAGE 16:44:12.278 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:12.280
+!MESSAGE 16:44:12.280 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:12.284
+!MESSAGE 16:44:12.283 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:12.794
+!MESSAGE 16:44:12.794 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:12.795
+!MESSAGE 16:44:12.794 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:12.795
+!MESSAGE 16:44:12.794 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:12.798
+!MESSAGE 16:44:12.797 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:12.834
+!MESSAGE 16:44:12.833 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 14
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:15.032
+!MESSAGE 16:44:13.309 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:15.032
+!MESSAGE 16:44:13.312 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:16.471
+!MESSAGE 16:44:16.471 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 0ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:16.525
+!MESSAGE 16:44:16.525 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:16.538
+!MESSAGE 16:44:16.535 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:16.539
+!MESSAGE 16:44:16.537 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:16.539
+!MESSAGE 16:44:16.538 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:16.539
+!MESSAGE 16:44:16.538 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:16.539
+!MESSAGE 16:44:16.538 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:18.054
+!MESSAGE 16:44:16.973 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:18.063
+!MESSAGE 16:44:18.063 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:18.066
+!MESSAGE 16:44:18.065 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:19.149
+!MESSAGE 16:44:18.450 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:19.149
+!MESSAGE 16:44:18.465 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:19.149
+!MESSAGE 16:44:18.465 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 0ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:19.149
+!MESSAGE 16:44:18.642 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:19.538
+!MESSAGE 16:44:19.156 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:19.675
+!MESSAGE 16:44:19.674 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:20.022
+!MESSAGE 16:44:20.021 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 22
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:20.022
+!MESSAGE 16:44:20.021 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:20.182
+!MESSAGE 16:44:20.179 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:20.429
+!MESSAGE 16:44:20.429 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:20.430
+!MESSAGE 16:44:20.429 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 0ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:21.707
+!MESSAGE 16:44:21.162 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:21.707
+!MESSAGE 16:44:21.426 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 0ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:21.707
+!MESSAGE 16:44:21.705 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:21.707
+!MESSAGE 16:44:21.707 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:21.968
+!MESSAGE 16:44:21.841 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:22.192
+!MESSAGE 16:44:22.191 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:22.202
+!MESSAGE 16:44:22.202 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:22.203
+!MESSAGE 16:44:22.202 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:26.287
+!MESSAGE 16:44:23.637 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:26.287
+!MESSAGE 16:44:26.287 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:26.742
+!MESSAGE 16:44:26.295 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:26.742
+!MESSAGE 16:44:26.295 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:26.742
+!MESSAGE 16:44:26.741 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:26.742
+!MESSAGE 16:44:26.741 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:32.533
+!MESSAGE 16:44:29.958 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:32.533
+!MESSAGE 16:44:29.988 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:32.534
+!MESSAGE 16:44:29.991 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:32.534
+!MESSAGE 16:44:29.991 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Vehicle.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:32.534
+!MESSAGE 16:44:32.530 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:38.032
+!MESSAGE 16:44:35.873 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:38.033
+!MESSAGE 16:44:35.873 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceCategory.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:38.033
+!MESSAGE 16:44:38.024 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:41.136
+!MESSAGE 16:44:41.136 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:41.146
+!MESSAGE 16:44:41.145 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/MechanicProfile.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:44.780
+!MESSAGE 16:44:44.780 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Role.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:44.784
+!MESSAGE 16:44:44.783 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Role.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:46.922
+!MESSAGE 16:44:46.921 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:53.177
+!MESSAGE 16:44:53.176 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:53.177
+!MESSAGE 16:44:53.176 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:53.177
+!MESSAGE 16:44:53.176 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:53.177
+!MESSAGE 16:44:53.176 [pool-3-thread-7] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - hover computation done in 0ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:44:59.814
+!MESSAGE 16:44:59.808 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:45:03.522
+!MESSAGE 16:45:00.269 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:45:03.527
+!MESSAGE 16:45:03.527 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:45:05.546
+!MESSAGE 16:45:05.530 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:45:06.032
+!MESSAGE 16:45:06.031 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:45:06.032
+!MESSAGE 16:45:06.032 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:45:06.045
+!MESSAGE 16:45:06.044 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:45:06.551
+!MESSAGE 16:45:06.048 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:45:06.551
+!MESSAGE 16:45:06.551 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:45:06.716
+!MESSAGE 16:45:06.716 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 14
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:45:06.716
+!MESSAGE 16:45:06.716 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:45:06.717
+!MESSAGE 16:45:06.716 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 0ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:45:06.793
+!MESSAGE 16:45:06.793 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:45:06.801
+!MESSAGE 16:45:06.801 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:45:06.803
+!MESSAGE 16:45:06.803 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:45:07.052
+!MESSAGE 16:45:06.948 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:45:07.169
+!MESSAGE 16:45:07.053 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:45:07.259
+!MESSAGE 16:45:07.258 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:45:07.268
+!MESSAGE 16:45:07.267 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:45:09.156
+!MESSAGE 16:45:07.816 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:45:09.281
+!MESSAGE 16:45:09.281 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:45:09.287
+!MESSAGE 16:45:09.287 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:45:09.288
+!MESSAGE 16:45:09.287 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:45:09.288
+!MESSAGE 16:45:09.287 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:45:09.299
+!MESSAGE 16:45:09.298 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:45:09.299
+!MESSAGE 16:45:09.298 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:45:09.658
+!MESSAGE 16:45:09.658 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:45:10.753
+!MESSAGE 16:45:10.550 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:45:10.753
+!MESSAGE 16:45:10.752 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:45:10.795
+!MESSAGE 16:45:10.755 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:45:11.277
+!MESSAGE 16:45:11.014 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:45:11.278
+!MESSAGE 16:45:11.277 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:45:11.799
+!MESSAGE 16:45:11.280 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:45:12.096
+!MESSAGE 16:45:12.093 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:45:12.096
+!MESSAGE 16:45:12.096 [Reconciler-1] INFO  o.s.i.v.b.j.r.JdtReconciler - reconciling (JDT): file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java done in 3ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:45:12.097
+!MESSAGE 16:45:12.096 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:45:14.928
+!MESSAGE 16:45:13.385 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:45:14.929
+!MESSAGE 16:45:14.928 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:45:15.006
+!MESSAGE 16:45:14.934 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:45:15.006
+!MESSAGE 16:45:14.935 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 1ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:45:15.006
+!MESSAGE 16:45:15.002 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:45:20.024
+!MESSAGE 16:45:20.023 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:45:34.212
+!MESSAGE 16:45:20.467 [Reconciler-1] INFO  o.s.i.v.b.j.r.JdtReconciler - reconciling (JDT): file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java done in 2ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:46:01.881
+!MESSAGE 16:46:01.881 [pool-6-thread-1] INFO  o.s.i.v.b.j.utils.SpringIndexerJava - Start scanning affected files for types [com.service.main.entity.ServiceRequest]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 16:46:01.943
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 16:46:01.943
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 16:46:01.943
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-11-12 16:46:01.944
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:46:02.006
+!MESSAGE 16:46:02.005 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 1
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:46:02.010
+!MESSAGE 16:46:02.007 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceRequest.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:46:02.119
+!MESSAGE 16:46:02.118 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceRequest.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:46:02.145
+!MESSAGE 16:46:02.144 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceRequest.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:46:02.150
+!MESSAGE 16:46:02.149 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceRequest.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:46:04.880
+!MESSAGE 16:46:02.394 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/Users.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:46:04.880
+!MESSAGE 16:46:04.879 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceRequest.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:46:04.881
+!MESSAGE 16:46:04.879 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 1ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:46:13.831
+!MESSAGE 16:46:04.895 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceRequest.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:46:13.831
+!MESSAGE 16:46:04.897 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceRequest.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:46:20.675
+!MESSAGE 16:46:14.028 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceRequest.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:46:20.688
+!MESSAGE 16:46:20.688 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceRequest.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:46:20.689
+!MESSAGE 16:46:20.688 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceRequest.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:46:20.920
+!MESSAGE 16:46:20.919 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceRequest.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:46:36.831
+!MESSAGE 16:46:34.020 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceRequest.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:46:36.831
+!MESSAGE 16:46:34.293 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceRequest.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:46:38.427
+!MESSAGE 16:46:37.260 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceRequest.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:46:38.861
+!MESSAGE 16:46:38.845 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceRequest.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:46:39.121
+!MESSAGE 16:46:39.110 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceRequest.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:46:39.121
+!MESSAGE 16:46:39.121 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceRequest.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:46:39.502
+!MESSAGE 16:46:39.300 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceRequest.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:46:39.502
+!MESSAGE 16:46:39.501 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceRequest.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:46:39.616
+!MESSAGE 16:46:39.616 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceRequest.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:46:40.004
+!MESSAGE 16:46:39.618 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceRequest.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:46:41.049
+!MESSAGE 16:46:41.039 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceRequest.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:46:41.049
+!MESSAGE 16:46:41.049 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceRequest.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:46:41.051
+!MESSAGE 16:46:41.050 [pool-3-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceRequest.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:46:41.844
+!MESSAGE 16:46:41.844 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceRequest.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:46:42.344
+!MESSAGE 16:46:42.333 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceRequest.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:46:43.345
+!MESSAGE 16:46:42.831 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceRequest.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:46:43.345
+!MESSAGE 16:46:43.344 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceRequest.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:46:43.873
+!MESSAGE 16:46:43.541 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceRequest.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:46:43.874
+!MESSAGE 16:46:43.870 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceRequest.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:46:47.182
+!MESSAGE 16:46:47.179 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceRequest.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:46:47.182
+!MESSAGE 16:46:47.179 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceRequest.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:46:49.815
+!MESSAGE 16:46:47.617 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceRequest.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-11-12 16:46:49.815
+!MESSAGE 16:46:49.814 [pool-3-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/MacWebapp/Service-hub/src/main/java/com/service/main/entity/ServiceRequest.java
