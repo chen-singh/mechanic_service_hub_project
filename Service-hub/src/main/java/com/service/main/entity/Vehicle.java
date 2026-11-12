@@ -1,9 +1,13 @@
 package com.service.main.entity;
 
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
 @Entity
 @Table(name = "vehicles")
+@Setter
+@Getter
 public class Vehicle {
 
     @Id
@@ -29,5 +33,5 @@ public class Vehicle {
     public Vehicle() {
     }
 
-    // Generate getters and setters in IntelliJ.
+   
 }

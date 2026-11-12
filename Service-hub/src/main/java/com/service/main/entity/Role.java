@@ -1,5 +1,8 @@
 package com.service.main.entity;
 
-public enum Role {
 
+public enum Role {
+    CUSTOMER,
+    MECHANIC,
+    ADMIN
 }
